@@ -5,7 +5,6 @@
 [EN] Reverse engineering and software replacement for the stock water level sensor board of the Xiaomi Smartmi Humidifier 2 (model SKV6001RT) using Arduino Nano.
 
 ## 📌 Особенности / Features
-* **[RU] Упреждение звука:** Сигнал аварии (код 125) срабатывает синхронно с миганием первой полоски на увлажнителе, не дожидаясь блокировки UART-порта со стороны Xiaomi.
 * **[EN] Early Audio Alert:** The alarm (code 125) triggers synchronously with the flashing of the first water bar, preventing the Xiaomi CPU from locking the UART port.
 * **[RU] Фильтр сглаживания (EMA):** Пропорция 85% истории / 15% нового замера полностью убирает наводки от вентилятора и мотора.
 * **[EN] Smoothing Filter (EMA):** A blend of 85% history / 15% new reading completely eliminates electromagnetic noise from the fan and motor.
