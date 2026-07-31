@@ -1,7 +1,7 @@
-# Кастомный датчик уровня воды для Xiaomi Smartmi Humidifier 2 (Arduino Nano)
-# Custom Water Level Sensor for Xiaomi Smartmi Humidifier 2 (Arduino Nano)
+# Кастомный датчик уровня воды для Xiaomi Smartmi Humidifier  (Arduino Nano)
+# Custom Water Level Sensor for Xiaomi Smartmi Humidifier  (Arduino Nano)
 
-[RU] Реверс-инжиниринг и замена штатной платы датчиков уровня воды для моек воздуха Xiaomi Smartmi Humidifier 2 (модель SKV6001RT) с использованием Arduino Nano.
+[RU] Реверс-инжиниринг и замена штатной платы датчиков уровня воды для моек воздуха Xiaomi Smartmi Humidifier  (модель SKV6001RT) с использованием Arduino Nano.
 [EN] Reverse engineering and software replacement for the stock water level sensor board of the Xiaomi Smartmi Humidifier 2 (model SKV6001RT) using Arduino Nano.
 
 ## 📌 Особенности / Features
@@ -20,3 +20,5 @@
 ## 🛠️ Калибровка / Calibration
 * `#define MIN_READING 1040` — Полный бак / Full tank.
 * `#define MAX_READING 2550` — Пустой бак / Empty tank.
+*SAMPLES_NUMBER 300
+*TIMEOUT_MS 100
