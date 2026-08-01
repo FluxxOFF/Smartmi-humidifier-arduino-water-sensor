@@ -130,7 +130,7 @@ void loop()
       overflowTriggered = false;
     }
     
-        // [RU] Сбрасываем триггеры, только если бак залили выше половины (больше 12 единиц)
+    // [RU] Сбрасываем триггеры, только если бак залили выше половины (больше 12 единиц)
     // [EN] Reset timers only if the tank is refilled above 12 units
     if (mappedValue > 12) {
       lowWaterBeepCount = 0;
