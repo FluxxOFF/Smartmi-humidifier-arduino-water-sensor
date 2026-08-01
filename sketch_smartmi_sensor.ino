@@ -11,7 +11,7 @@
 
 // --- КАЛИБРОВОЧНЫЕ ПОРОГИ / CALIBRATION THRESHOLDS ---
 #define MIN_READING 1040   // [RU] Полный бак с водой / [EN] Full tank threshold (minimum capacitance)
-#define MAX_READING 2550   // [RU] Абсолютно пустой бак / [EN] Empty tank threshold (maximum capacitance)
+#define MAX_READING 2450   // [RU] Абсолютно пустой бак / [EN] Empty tank threshold (maximum capacitance)
 
 // --- СТРУКТУРНЫЙ ПАКЕТ XIAOMI / XIAOMI SERIAL PACKET ARRAY ---
 // [RU] packet[11] = Уровень/Звук, packet[42] = Контрольная сумма XOR
